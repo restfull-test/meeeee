@@ -1,0 +1,36 @@
+{
+    "repoName": "meeeee",
+    "repoDescription": "mine",
+    "framework": "sails",
+    "database": "mongo",
+    "schemas": [
+        {
+            "name": "iuy",
+            "attributes": [
+                {
+                    "key": "k",
+                    "autoIncrement": false,
+                    "unique": false,
+                    "primaryKey": false,
+                    "required": false,
+                    "collection": false,
+                    "model": "lokiuyt"
+                }
+            ]
+        },
+        {
+            "name": "lokiuyt",
+            "attributes": [
+                {
+                    "key": "key",
+                    "type": "string",
+                    "autoIncrement": false,
+                    "unique": false,
+                    "primaryKey": false,
+                    "required": false,
+                    "collection": false
+                }
+            ]
+        }
+    ]
+}
